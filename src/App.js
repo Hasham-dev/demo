@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const [counter, setCounter] = useState(0)
   const counterIncrement = () => {
-    setCounter(counter + 1);
+    counter < 10 ? setCounter(counter + 1) : setCounter(0);
   }
 
   return (
