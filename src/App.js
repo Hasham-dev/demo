@@ -12,8 +12,9 @@ function App() {
     <div className="App">
       <Container>
         <p>
-          Hello World
+          Edit heloo and save to reload.\
         </p>
+        <h2>Hasham</h2>
         <h2>{counter}</h2>
         <button
           onClick={counterIncrement}
