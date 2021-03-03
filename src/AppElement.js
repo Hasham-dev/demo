@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import mediaqueries from './mediaQuries';
+import styled from 'styled-components'
+import mediaqueries from './mediaQuries'
 
 export const Container = styled.div`
 ${mediaqueries.desktop`padding: 0 20px;
@@ -16,4 +16,4 @@ ${mediaqueries.desktop`padding: 0 20px;
   color: #fff;  
   background-color: yellow;
   `}
-`;
+`
