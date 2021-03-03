@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Edit heloo and save to reload.
+          Edit heloo and save to reload.\
         </p>
         <h2>Hasham</h2>
         <h2>{counter}</h2>
