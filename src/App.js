@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './App.css';
+import { Container } from './AppElement';
 
 function App() {
   const [counter, setCounter] = useState(0)
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <Container>
         <p>
           Hello World
         </p>
@@ -17,7 +18,7 @@ function App() {
         <button
           onClick={counterIncrement}
         >Click me</button>
-      </header>
+      </Container>
     </div>
   );
 }
